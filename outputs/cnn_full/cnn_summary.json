@@ -1,0 +1,33 @@
+{
+  "best_config": {
+    "name": "cnn_wider",
+    "channels": [
+      24,
+      48,
+      96
+    ],
+    "lr": 0.001,
+    "batch_size": 128,
+    "dropout": 0.2,
+    "weight_decay": 0.0001,
+    "params": 68194,
+    "cv_val_acc_mean": 0.7573200438067321,
+    "cv_val_acc_std": 0.002815699922198529,
+    "fold_val_accuracies": [
+      0.7591048179036419,
+      0.753344933101338,
+      0.7595103804152166
+    ],
+    "mean_fold_train_time_sec": 224.27981734058508
+  },
+  "folds": 3,
+  "epochs": 15,
+  "seed": 42,
+  "device": "cpu",
+  "final_train_time_sec": 336.1708911829628,
+  "final_train_sec_per_epoch": 22.411392745530854,
+  "final_peak_memory_mib": 736.41015625,
+  "memory_metric": "CPU process peak RSS",
+  "test_loss": 0.7799507695198059,
+  "test_acc": 0.7467
+}

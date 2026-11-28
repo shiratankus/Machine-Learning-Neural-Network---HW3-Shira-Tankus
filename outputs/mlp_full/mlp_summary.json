@@ -1,0 +1,32 @@
+{
+  "best_config": {
+    "name": "mlp_1024_512_lr3e-4",
+    "hidden_dims": [
+      1024,
+      512
+    ],
+    "lr": 0.0003,
+    "batch_size": 128,
+    "dropout": 0.2,
+    "weight_decay": 0.0001,
+    "params": 3679754,
+    "cv_val_acc_mean": 0.5533398128389286,
+    "cv_val_acc_std": 0.00706448430385001,
+    "fold_val_accuracies": [
+      0.5549889002219955,
+      0.5610487790244195,
+      0.5439817592703708
+    ],
+    "mean_fold_train_time_sec": 148.37908599106595
+  },
+  "folds": 3,
+  "epochs": 15,
+  "seed": 42,
+  "device": "cpu",
+  "final_train_time_sec": 203.50807378534228,
+  "final_train_sec_per_epoch": 13.567204919022819,
+  "final_peak_memory_mib": 728.1015625,
+  "memory_metric": "CPU process peak RSS",
+  "test_loss": 1.2347980241775514,
+  "test_acc": 0.5798
+}
